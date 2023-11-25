@@ -20,11 +20,6 @@ body{
     margin: 0 auto;
 }
 
-
-
-
-
-
 .header_wraper ul {
     display: flex;
     -webkit-box-pack: justify;
@@ -49,3 +44,68 @@ img{
 .header_wraper .header_links_wraper ul li:hover {
     opacity: 1;
 }
+
+
+/* style of main_highlight */
+
+.main_highlight_wraper{
+    background-color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+.internall_wraper{
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.model {
+    font-size: 0.78em;
+}
+.title_wraper {
+    font-weight: 600;
+    font-size: 54px;
+}
+.description{
+    font-size: 0.92em;
+}
+.links_wraper {
+    padding: 14px 0;
+}
+.links_wraper ul {
+    list-style: none;
+  
+}
+.links_wraper ul li a{
+    text-decoration: none;
+    color:#06c;
+}
+.links_wraper ul li {
+    opacity: 0.8;
+    padding-right: 20px;
+    display: inline-block;
+}
+.links_wraper ul li a:hover{
+    opacity: 1;
+    color: #000;
+}
+
+
+.links_wraper ul li a:after {
+    font-weight: 900;
+    padding-left: 10px;
+    content: "\f007";
+    font-family: FontAwsome;
+  }
+  
+  .second_wraper{
+    background-color: #000;
+    color: black;
+    padding: 50px 0;
+    background-image: url("../images/school-9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+  .price{
+    color: gray;
+  }
