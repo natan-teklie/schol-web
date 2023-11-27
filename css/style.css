@@ -101,11 +101,132 @@ img{
     background-color: #000;
     color: black;
     padding: 50px 0;
-    background-image: url("../images/school-9.jpg");
+    background-image: url("../images/school-8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 580px;
+    width: 100%;
   }
   .price{
     color: gray;
   }
+
+  .third_wraper{
+    background-image: url("../images/school-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+  }
+
+
+  .fourth_wraper{
+    text-align: center;
+    background: #fff;
+  }
+  .fourth_wraper .parallels{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+    text-align: center;
+    display: flex;
+  }
+
+  .fourth_wraper .left_side_wraper {
+background-image: url("../images/schoolSport-field-1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 48.5%;
+padding: 54px;
+margin: 1% 0.5% 0 1%;
+height: 580px;
+color:  whitesmoke;
+font-weight: 900;
+  }
+  .fourth_wraper .right_side_wraper {
+    background-image: url("../images/schoolSport-field-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 54px;
+    margin: 1% 1% 0 0.5%;
+    width: 48.5%;
+  }
+/* style fifth_wraper */
+.fifth_wraper{
+    background: #fff;
+    text-align: center;
+}
+.fifth_wraper .parallels{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+    color: #000;
+    font-weight: 200;
+    text-align: center;
+}
+
+.fifth_wraper .left_side_wraper{
+    background-image: url("../images/computer-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48.5%;
+    height: 580px;
+    padding: 54px;
+    margin: 1% 0.5% 0 1%;
+    color: #000;
+    font-weight: 400;
+}
+.fifth_wraper .right_side_wraper{
+    background-image: url("../images/computer-1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 48.5%;
+    height: 580px;
+    padding: 54px;
+    margin: 1% 1% 0 0.5%;
+}
+/* style sixth_wraper */
+.sixth_wraper {
+    background: #fff;
+    text-align: center;
+}
+.sixth_wraper .parallels {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #fff;
+    font-weight: 200;
+    -webkit-box-pack: justify;
+}
+
+.sixth_wraper .left_side_wraper{
+    background-image: url("../images/lab-2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 580px;
+    padding: 54px;
+    margin: 1% 0.3% 1% 1%;
+}
+
+.sixth_wraper .right_side_wraper {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 580px;
+    padding: 54px;
+    margin: 1% 1% 1% 0.3%;
+}
+
+.sixth_wraper .middle{
+    background-image: url("");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 580px;
+    padding: 54px;
+    margin: 1% 0.3% 1% 0.3%;
+}
